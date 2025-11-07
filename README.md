@@ -15,7 +15,9 @@ Please visit CLO-SET CONNECT> Help Centre> CLO-SET CONNECT Manual for general gu
 ## Organising pattern pieces in 2D window
 
 - The 2D patterns should be grouped and organised so that pieces can be easily recognised in the 2D window, please see the layout below.
+
 - Use the “Symmetric Pattern” function on all pattern pieces that are symmetrical.
+
 - Check that the grain lines are marked correctly.
 
 <img src="images/1.png" alt="Example: Top pieces" width="50%"><img src="images/2.png" alt="Example: Bottom pieces" width="50%">
@@ -66,8 +68,11 @@ Bond the full piece if it should be block fused, i.e fused before cutting (this 
 ### Fusing outside of/along a pattern outline
 
 - Fusing pieces must be 2 mm smaller than the seam allowance in order work well in the fusing machine.
+
 - Right click on the selected lines and use “Offset as internal line (Reversed Direction)” to create the outlines of the fusing piece.
+
 - Complete the fused area by drawing internal lines. If needed, right click on the overlapping pointsand join them to create an internal shape, mark it and choose Bond in the property editor.
+
 - Check the grain line of the fusing under the fusing tab in the Print Layout mode (scroll down menu in the top right corner).
 
 <img src="images/9.png" alt="1" width="25%"><img src="images/11.png" alt="2" width="41%"><img src="images/13.png" alt="3" width="24%">
@@ -93,7 +98,7 @@ Add the proper seam allowance according to the sewing method with the seam allow
 
 > [!IMPORTANT]
 >
-> The seam allowance is only for joining seams and part of pieces “inside” of a seam, generally NOT for fold and hems. See explanation in Seam allowance in 3D window.
+> The seam allowance is only for joining seams and part of pieces “inside” of a seam, generally NOT for fold and hems. See explanation below.
 
 
 ### Seam allowance for hems and folds
@@ -140,20 +145,25 @@ Place, as far as possible, toptitches on the outlines of the patterns and offset
 ### Buttons
 
 - Add button and bottonholes using the tool in the 3d window. Make sure to lock the button into position if possible.
+
 - Adjust size according and color the buttons white.
+
 - Mark drillhole on correct facing of the fabricpiece.
 
 
 ### Buckles and other imported 3d objects
 
 - Add trim infomation about the object in the property editor and tick off *include in techpack*.
+
 - Adjust size according and color the buttons white or black.
 
 
 ### Elastics, cords and velcro pieces
 
 - Add piece as a regular patternpiece, name and archive it.
+
 - **Change from pattern to trim** in the property editor, tick off *include in techpack* and choose trim classification.
+
 - Add fabric and texture matching the trim.
 
 <img src="images/30.png" width="50%"><img src="images/31.png" width="50%">
@@ -164,7 +174,9 @@ Place, as far as possible, toptitches on the outlines of the patterns and offset
 ### Notches
 
 - ONLY add notches that are necessary for the physical production to your pattern. Notches should be helpful when sewing, i.e **no** notches for marking centre front, waist lines, places of measure etc.
+
 - Place notches on long and/or curved lines notches every 20-40cm to facilitate assemling.
+
 - Hem and fold lines should be marked with notches.
 
 <img src="images/32.png">
@@ -181,18 +193,128 @@ Place, as far as possible, toptitches on the outlines of the patterns and offset
 
 ### Drill holes
 
+- Pocket placements, end of darts etc. should be marked with drill holes.
+
+- Create drill hole as a 3mm **baseline circle** with a cross inside. (Baselines has to be used as internallines are *not* printed in production.)
+
+- Drillholes that mark the placement of details should be placed 3 mm inside of outline.
+
+- Place drill holes 1 cm away from the dart point inside the dart.
+
+<img src="images/34.png" alt="Example: Drillholes in pocket corner"> | <img src="images/33.png" alt="Example: Drillholes in dart point">
+:-:|:-:
+<img src="images/35.png" alt="Example: Drillholes in pocket corner"> | <img src="images/36.png" alt="Example: Drillholes in dart point">
+Example: Drillholes in pocket corner | Example: Drillholes in dart point
+
 ## Point of measureme (POM)
+
+- Measurements are needed to control the garment production and of the grading. Only mark measurements that are needed to maintain quality and that can be taken on a finished garment but at least the measurments shown in the example below.
+
+- Choose suitable measurements based on the design and of the garment.
+
+- Note: Please check the [CLO manual](https://support.clo3d.com/hc/en-us/articles/360025716774-Create-POM) for further instructions.
+
+<img src="images/37.png">
+
 
 ## Grading
 
+Before grading make sure that the pattern is cleaned up and only contains nessesary lines and points for production and 3d visualisation. Sectionpoint should only appear in corners, where lines intersects amd with notches.
+
+- Garments must be graded in suitable steps and size range for the production.
+
+- Download already graded styles from the OSPP archive for references if needed.
+
+- Generic principal guidlines for tops and bottoms are provided below
+
+> [!NOTE]
+> Blue lines shows growth only vertical or horisontal.
+> 
+> Red lines shows growth vertical and horisontal based on position in the grid.
+
+TODO: Place missing images here
+
 ### Example shirt
 
-### Example pants
+TODO: Place missing images here
+
+> [!NOTE]
+>
+> Differences between each alphabetic size (chest circumfence 6cm)
+
+
+### Example pants (jeans)
+
+TODO: Place missing images here
+
+> [!NOTE]
+>
+> Differences between each inch size, i.e 29, 30. 31, 32 etc
+
+
+Please check the [CLO manual](https://support.clo3d.com/hc/en-us/articles/360000742948-Apply-Grading) for further instructions if needed.
+
+- Use POM-list to control the grading.
+
+<img src="images/53.png">
+
+After grading check the seamlengths in each size after grading has been applied. Adjust to make all seams correspond if needed.
+
 
 ## Visualisation
 
+- Use the fabric texture from the “Default_OSPP_Fabric” file (availible for downloading from [CLOSET CONNECT/\[a\]industri](https://connect.clo-set.com/detail/30f04ee588844062ac2a72700b4e6ea8)).
+
+- The woven checked lines should indicate scale and grain direction. The black lines indicate the grain direction and the blue lines indicate the cross-grain direction. Each square should measure 10x10cm.
+
+- Use fabric properties that are suitable for the design (can be changed in the bottom of the property editor).
+
+<img src="images/54.png" width="29%"><img src="images/55.png" width="41%"><img src="images/56.png" width="29%">
+
+
 ## Preparations for uploading and rendering
+
+- After setting up the visualsation and pattern save it in 2 version:
+  1. version called “name_workfile.zprj” for rendering images from.
+  1. version only with garment called “name_upload.zpac” for uploading.
+ 
+-  The workfile is for rendering the thumbnail and subimages from.
+
+-  The workfile should include both the assembled garment and the flat pattern on the floor. To get the flatpatternlayout, copy the pattern, select it, right click and choose “reset 2D arrangments”, delete selected sewings.
+
+-  Place the flat pattern under the avatar flat on the ground (avoid “footprints” on the fabric from the avatar).
+
+-  Turn of avatar visibility.
+
+-  Set particle distance to 5, and simulate with high-res before rendering.
+
+-  Open and use the rendering properties presets attachted to the manual.
+
+<img src="images/57.png">
+
 
 ## Rendering of thumbnails and subimages
 
+Thumbnail, both garment and pattern visible | Subimages
+-- | --
+Apply presets from manual. | Apply presets from manual.
+Format 600x800px. | Format 600x800px.
+The thumbnail should show both the assembled garment and the flat pattern on the floor. | Subimage 1 should show the assembled garment only
+| | Subimage 2 should show the flat pattern on the floor.
+Camera angle and positioning as below. | Camera angle and positioning for flat pattern as below.
+
+<img src="images/58.png" width="33%"><img src="images/60.png" width="33%"><img src="images/59.png" width="33%">
+
+
 ## Submitting designs to OSPP
+
+A submission of patterns to OSPP should include:
+
+- Upload file (Zpac file according to specifications **without** avatar)
+
+- Workfile (Zprj file with avatar and a copy of pattern flat on the floor)
+
+- Rendered images containing Thumbnail and 2 subimages.
+
+All files should be zipped to one single file and sent to email for validation and uploading.
+
