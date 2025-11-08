@@ -42,7 +42,7 @@ Fused parts need to be marked for production. Use the bond function for this
 
 Bond the full piece if it should be block fused, i.e fused before cutting (this normally applies to pocket pieces, waistbands, jacket collars etc.).
 
-|<img src="images/6.png" alt="Example: Block fused pattern piece" width="50%">|
+|<img src="images/6.png" alt="Example: Block fused pattern piece">|
 |-|
 Example: Block fused pattern piece
 
@@ -94,14 +94,14 @@ To facilitate simlulation, and to be able to adjust stylelines in Jinny (or in t
 
 Make sure that the correct seam allowance angles are used if the ends are not 90 degrees.
 
-|<img src="images/19.png" width="60%">|
+|<img src="images/19.png">|
 |-|
 
 However, when handling hemfolds like this the inside of the hem is not visible in the 3D visualisation or rendering.
 
 **If** there is a need for inside hem visualisation, e.g. if the front and back side of the fabric has different textures or colours, add the by unfolding the hem. Use the fold tool to make a nive hemfold and add seamallowence as on the image below.
 
-|<img src="images/20.png" width="50%">|
+|<img src="images/20.png">|
 |-|
 
 
