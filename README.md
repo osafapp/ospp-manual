@@ -20,7 +20,7 @@ Please visit CLO-SET CONNECT> Help Centre> CLO-SET CONNECT Manual for general gu
 
 - Check that the grain lines are marked correctly.
 
-<img src="images/1.png" alt="Example: Top pieces" width="50%"><img src="images/2.png" alt="Example: Bottom pieces" width="50%">
+<img src="images/2.png" alt="Example: Top pieces" width="50%"><img src="images/1.png" alt="Example: Bottom pieces" width="50%">
 
 > [!NOTE]
 > 
