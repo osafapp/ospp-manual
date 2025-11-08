@@ -277,7 +277,7 @@ Please check the [CLO manual](https://support.clo3d.com/hc/en-us/articles/360000
 
 -  Set particle distance to 5, and simulate with high-res before rendering.
 
--  Open and use the rendering properties presets attached to the manual.
+-  Open and use the [rendering properties presets](resources/OSPP_renders_settings.zvrp) found in resources folder.
 
 |<img src="images/57.png">|
 |-|
