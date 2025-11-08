@@ -1,33 +1,5 @@
 # Manual for garments published on [a]industri open-source on CLO-SET CONNECT.
 
-## Table of Contents
-
-- Introduction
-- Organising pattern pieces in 2D window
-- Annotations and names on pattern pieces
-- Fusing
-  - Fusing inside of a pattern piece
-  - Fusing outside of/along a pattern outline
-- Seam allowance
-  - Seam allowance for hems and folds
-  - Seam allowance for darts
-- Topstitches
-- Trims
-  - Buttons
-  - Buckles and other imported 3d objects
-  - Elastics, cords and velcro pieces
-- Notches and drill holes
-  - Notches
-  - Drill holes
-- Point of measure (POM)
-- Grading
-  - Example: Grading suggestion for shirt
-  - Example: Grading suggestion for pants (jeans)
-- Visualisation
-- Preparations for uploading and rendering
-- Rendering of thumbnails and subimages
-- Submitting designs to OSPP
-
 > [!TIP]
 > See GitHub's markdown table of contents above for quick navigation.
 
