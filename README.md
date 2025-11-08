@@ -1,4 +1,4 @@
-# Manual for garments published on [a]industri open-source on CLO-SET CONNECT.
+# Manual for garments published according to OSPP standard
 
 > [!TIP]
 > See GitHub's markdown table of contents above for quick navigation.
@@ -6,18 +6,16 @@
 
 ## Introduction
 
-This manual contains guidelines and technical specifications required for patterns and visualisations to be published under [a]industri Open Source Production Patterns (OSPP) on CLO-SET CONNECT.
+This manual contains guidelines and technical specifications required for patterns and visualisations to be published according to Open Source Production Patterns (OSPP) specifications, as originally described by Rickard Lindqvist.
 
 The patterns of the styles shared through this platform should be ready for production. I.e. include all information such as seam allowance, notches, grading etc needed for industrial production.
-
-Please visit CLO-SET CONNECT> Help Centre> CLO-SET CONNECT Manual for general guidelines regarding [CLO-SET CONNECT](https://support.clo-set.com/hc/en-us/categories/360000184736-USING-CLO-SET).
 
 
 ## Organising pattern pieces in 2D window
 
 - The 2D patterns should be grouped and organised so that pieces can be easily recognised in the 2D window, please see the layout below.
 
-- Use the “Symmetric Pattern” function on all pattern pieces that are symmetrical.
+- Use the "Symmetric Pattern" function on all pattern pieces that are symmetrical.
 
 - Check that the grain lines are marked correctly.
 
@@ -39,7 +37,7 @@ Example of annotation | Naming pattern piece
 
 ## Fusing
 
-Fused parts need to be marked for production. Use the bond function for this
+Fused parts need to be marked for production. Use the bond function for this.
 
 Bond the full piece if it should be block fused, i.e fused before cutting (this normally applies to pocket pieces, waistbands, jacket collars etc.).
 
@@ -51,7 +49,7 @@ Example: Block fused pattern piece
 ### Fusing inside of a pattern piece
 
 - Create an internal shape inside of a pattern piece.
-- Choose the Bond function under “Property Editor”. Then the pattern for the fusing is automatically created in the Print Layout Bond window.
+- Choose the Bond function under "Property Editor". Then the pattern for the fusing is automatically created in the Print Layout Bond window.
 
 <img src="images/5.png">|<img src="images/8.png">|<img src="images/7.png">
 -|-|-
@@ -61,9 +59,9 @@ Example: Block fused pattern piece
 
 - Fusing pieces must be 2 mm smaller than the seam allowance in order work well in the fusing machine.
 
-- Right click on the selected lines and use “Offset as internal line (Reversed Direction)” to create the outlines of the fusing piece.
+- Right click on the selected lines and use "Offset as internal line (Reversed Direction)" to create the outlines of the fusing piece.
 
-- Complete the fused area by drawing internal lines. If needed, right click on the overlapping pointsand join them to create an internal shape, mark it and choose Bond in the property editor.
+- Complete the fused area by drawing internal lines. If needed, right click on the overlapping points and join them to create an internal shape, mark it and choose Bond in the property editor.
 
 - Check the grain line of the fusing under the fusing tab in the Print Layout mode (scroll down menu in the top right corner).
 
@@ -86,7 +84,7 @@ Add the proper seam allowance according to the sewing method with the seam allow
 > Example of seam allowance according to different stitching.
 
 > [!NOTE]
-> The seam allowance is only for joining seams and part of pieces “inside” of a seam, generally NOT for fold and hems. See explanation below.
+> The seam allowance is only for joining seams and part of pieces "inside" of a seam, generally NOT for fold and hems. See explanation below.
 
 
 ### Seam allowance for hems and folds
@@ -253,7 +251,7 @@ Please check the [CLO manual](https://support.clo3d.com/hc/en-us/articles/360000
 
 ## Visualisation
 
-- Use the fabric texture from the “Default_OSPP_Fabric” file (availible for downloading from [CLOSET CONNECT/\[a\]industri](https://connect.clo-set.com/detail/30f04ee588844062ac2a72700b4e6ea8)).
+- Use the fabric texture from the [`Default_OSPP_Fabric`](resources/Default_OSPP_Fabric.zfab) file found in the resources folder.
 
 - The woven checked lines should indicate scale and grain direction. The black lines indicate the grain direction and the blue lines indicate the cross-grain direction. Each square should measure 10x10cm.
 
@@ -266,20 +264,20 @@ Please check the [CLO manual](https://support.clo3d.com/hc/en-us/articles/360000
 ## Preparations for uploading and rendering
 
 - After setting up the visualsation and pattern save it in 2 version:
-  1. version called “name_workfile.zprj” for rendering images from.
-  1. version only with garment called “name_upload.zpac” for uploading.
+  1. version called "name_workfile.zprj" for rendering images from.
+  1. version only with garment called "name_upload.zpac" for uploading.
  
 -  The workfile is for rendering the thumbnail and subimages from.
 
--  The workfile should include both the assembled garment and the flat pattern on the floor. To get the flatpatternlayout, copy the pattern, select it, right click and choose “reset 2D arrangments”, delete selected sewings.
+-  The workfile should include both the assembled garment and the flat pattern on the floor. To get the flatpatternlayout, copy the pattern, select it, right click and choose "reset 2D arrangments", delete selected sewings.
 
--  Place the flat pattern under the avatar flat on the ground (avoid “footprints” on the fabric from the avatar).
+-  Place the flat pattern under the avatar flat on the ground (avoid "footprints" on the fabric from the avatar).
 
 -  Turn of avatar visibility.
 
 -  Set particle distance to 5, and simulate with high-res before rendering.
 
--  Open and use the rendering properties presets attachted to the manual.
+-  Open and use the rendering properties presets attached to the manual.
 
 |<img src="images/57.png">|
 |-|
@@ -299,9 +297,9 @@ Camera angle and positioning as below. | Camera angle and positioning for flat p
 -|-|-
 
 
-## Submitting designs to OSPP
+## Sharing OSPP designs
 
-A submission of patterns to OSPP should include:
+An OSPP garment design should include:
 
 - Upload file (Zpac file according to specifications **without** avatar)
 
@@ -309,5 +307,5 @@ A submission of patterns to OSPP should include:
 
 - Rendered images containing Thumbnail and 2 subimages.
 
-All files should be zipped to one single file and sent to email for validation and uploading.
+All files should be added to a git repository and published on GitHub. (Keep individual files under 100 MB.)
 
