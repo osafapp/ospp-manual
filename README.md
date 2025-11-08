@@ -1,7 +1,36 @@
 # Manual for garments published on [a]industri open-source on CLO-SET CONNECT.
 
+## Table of Contents
+
+- Introduction
+- Organising pattern pieces in 2D window
+- Annotations and names on pattern pieces
+- Fusing
+  - Fusing inside of a pattern piece
+  - Fusing outside of/along a pattern outline
+- Seam allowance
+  - Seam allowance for hems and folds
+  - Seam allowance for darts
+- Topstitches
+- Trims
+  - Buttons
+  - Buckles and other imported 3d objects
+  - Elastics, cords and velcro pieces
+- Notches and drill holes
+  - Notches
+  - Drill holes
+- Point of measure (POM)
+- Grading
+  - Example: Grading suggestion for shirt
+  - Example: Grading suggestion for pants (jeans)
+- Visualisation
+- Preparations for uploading and rendering
+- Rendering of thumbnails and subimages
+- Submitting designs to OSPP
+
 > [!TIP]
-> See GitHub's markdown table of contents above.
+> See GitHub's markdown table of contents above for quick navigation.
+
 
 ## Introduction
 
@@ -190,9 +219,9 @@ Place, as far as possible, toptitches on the outlines of the patterns and offset
 -|-
 Example: Drillholes in pocket corner | Example: Drillholes in dart point
 
-## Point of measureme (POM)
+## Point of measure (POM)
 
-- Measurements are needed to control the garment production and of the grading. Only mark measurements that are needed to maintain quality and that can be taken on a finished garment but at least the measurments shown in the example below.
+- Measurements are needed to control the garment production and of the grading. Only mark measurements that are needed to maintain quality and that can be taken on a finished garment but at least the measurements shown in the example below.
 
 - Choose suitable measurements based on the design and of the garment.
 
