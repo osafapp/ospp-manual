@@ -76,13 +76,12 @@ All pattern pieces should include a seam allowance for the physical production.
 
 Add the proper seam allowance according to the sewing method with the seam allowance tool in the 2D window.
 
-> | | Stitch type | Seam allowance | Description |
-> | :-: | - | - | - |
-> |<img src="images/15.png" width="75%">| 1-Needle Lockstitch | 1 cm | 1 cm is generally used for 1-needle lockstitch seams. |
-> |<img src="images/16.png" width="75%">| Stiched and turned 1-Needle Lockstitch | 0,5 cm | 0,5 cm is generally used for stitched and turned 1-needle lockstitch seams, eg. edges of collars and cuffs. |
-> |<img src="images/17.png" width="75%">| 4-thread overlock | 0,7 cm | The overlock seam is generally 0,5 cm wide. 2 mm margin is added to be cut away when sewing. |
-> |<img src="images/18.png" width="75%">| 5-thread safety stitch | 1,2 cm | The overlock plus chainstitch seam is generally 1 cm wide together. 2 mm margin is added to be cut away when sewing. |
-> 
+| | Stitch type | Seam allowance | Description |
+| :-: | - | - | - |
+|<img src="images/15.png" width="75%">| 1-Needle Lockstitch | 1 cm | 1 cm is generally used for 1-needle lockstitch seams. |
+|<img src="images/16.png" width="75%">| Stiched and turned 1-Needle Lockstitch | 0,5 cm | 0,5 cm is generally used for stitched and turned 1-needle lockstitch seams, eg. edges of collars and cuffs. |
+|<img src="images/17.png" width="75%">| 4-thread overlock | 0,7 cm | The overlock seam is generally 0,5 cm wide. 2 mm margin is added to be cut away when sewing. |
+|<img src="images/18.png" width="75%">| 5-thread safety stitch | 1,2 cm | The overlock plus chainstitch seam is generally 1 cm wide together. 2 mm margin is added to be cut away when sewing. |
 > Example of seam allowance according to different stitching.
 
 > [!NOTE]
@@ -170,8 +169,8 @@ Place, as far as possible, toptitches on the outlines of the patterns and offset
 <table><tr><td><img src="images/new_image_004.png"></td></tr><tr><td>
 
 1. Joining notches.
-   > [!NOTE]
-   > Always place a notch 8 cm from sideseam front pcs and front side of sleeve.
+  > [!NOTE]
+  > Always place a notch 8 cm from sideseam front pcs and front side of sleeve.
 2. Notches to mark foldline.
 3. Notches to mark folded hemline.
 </td></tr></table>
